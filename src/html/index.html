@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/login-theme.css" />
+</head>
+<body>
+    <div id="login-container"></div>
+    <script type="text/javascript" src="../lib/vendors.js"></script>
+    <script type="text/javascript" src="../js/login/init.js"></script>
+    <script>
+        pass.login({
+            container:document.getElementById('login-container'),
+            accountText: '账号：',
+            passwordText:'密码：',
+            accountPlaceholder:'请输入手机号/账号/邮箱',
+            passwordPlaceholder:'请输入您的密码',
+            loginBtnText:'登录',
+            autocomplete: false,
+            showRemember: true
+        })
+    </script>
+</body>
+</html>

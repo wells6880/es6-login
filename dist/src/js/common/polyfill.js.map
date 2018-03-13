@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/js/common/polyfill.js"],"names":[],"mappings":";;AAAA;;AACA;;AACA;;AACA;;AACA;;AACA","file":"polyfill.js","sourcesContent":["import 'es6-shim';\r\nimport 'fetch-detector';\r\nimport 'fetch-ie8';\r\nimport 'es6-promise/auto';\r\nimport 'babel-polyfill';\r\nimport './mock';"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/js/common/utils.js"],"names":["getId","id","document","getElementById"],"mappings":";;;;;AAAO,IAAMA,wBAAQ,SAARA,KAAQ,CAACC,EAAD,EAAQ;AACzB,WAAOC,SAASC,cAAT,CAAwBF,EAAxB,CAAP;AACH,CAFM","file":"utils.js","sourcesContent":["export const getId = (id) => {\r\n    return document.getElementById(id);\r\n};"]}

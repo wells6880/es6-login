@@ -1,0 +1,31 @@
+#login-container{
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 0 #cccccc;
+}
+.login-error{
+    display: inline-block;
+    line-height: 50px;
+}
+.login-account-wrapper,
+.login-password-wrapper{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.login-wrapper input{
+    height: inherit;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.login-wrapper .del{
+    position: absolute;
+    top:0;
+    right: 5px;
+    display: inline-block;
+    line-height: inherit;
+    z-index: 5;
+}
